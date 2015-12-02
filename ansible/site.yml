@@ -1,0 +1,7 @@
+---
+- name: Demo with role tagging
+  hosts: vagrant
+  sudo: yes
+  roles:
+    - { role: 'example-2', tags: 'example-2' }
+    - { role: 'example-3', tags: 'example-3' }

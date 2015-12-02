@@ -1,0 +1,4 @@
+---
+- name: Running example 1
+  debug: msg="Example 1"
+  
